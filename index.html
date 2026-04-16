@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Venda seu carro</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <header class="cabecalho">
-            <h3>cadastre seu veiculo para vender mais rapido</h3>
+            <h3>Cadastre seu veículo para vender mais rápido</h3>
         </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+        </div>
+        <div class="form-body">
+            <h1 class="titulo-form">Venda fácil seu carro</h1>
+            <p>Descreva as características do seu carro e marque os adicionais que ele possui</p>
+            <form>
+                <div class="caixaInputs">
+                    <label for="title">Título do anúncio <span class="obrigatorio">*</span></label>
+                    <input type="text" name="title" id="title" class="block" placeholder="Digite um titúlo para o anúncio">
+                </div>
+                <div class="caixaInputs">
+                    <label for="title">Preço <span class="obrigatorio">*</span></label>
+                    <input type="number" name="preco" id="preco" class="block" placeholder="Digite um preço">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

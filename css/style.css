@@ -8,6 +8,20 @@ body {
     background-color: #f0ebf8;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
 .cabecalho {
     height: 160px;
     padding: 20px;

@@ -100,7 +100,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: #673ab7;
+    background-color: #3ab759;
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
@@ -112,6 +112,6 @@ textarea {
 
 .btn-submit:hover {
     background-color: #fff;
-    color: #673ab7;
-    border-color: #673ab7;
+    color: #44b73a;
+    border-color: #3ab76e;
 }

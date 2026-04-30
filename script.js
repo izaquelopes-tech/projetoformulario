@@ -11,6 +11,7 @@ function salvarCarro(event) {
     let cambio = cambioSelecionado ? cambioSelecionado.id : "Não informado";
 
     let carro = {
+        id: Date.now(),
         titulo,
         preco,
         marca,
